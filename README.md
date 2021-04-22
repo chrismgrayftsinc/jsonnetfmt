@@ -1,4 +1,4 @@
-pre-commit-hooks
+jsonnetfmt
 ===============
 
 A hook for formatting jsonnet files
@@ -8,7 +8,7 @@ A hook for formatting jsonnet files
 Add this to your `.pre-commit-config.yaml`
 
 ```
-- repo: https://github.com/chrismgrayftsinc/pre-commit-hooks.git
+- repo: https://github.com/chrismgrayftsinc/jsonnetfmt.git
   rev: main
   hooks:
     - id: jsonnetfmt
